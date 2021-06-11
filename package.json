@@ -1,0 +1,25 @@
+{
+  "name": "recipe_app",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "main": "index.html",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@parcel/transformer-sass": "^2.0.0-beta.3.1",
+    "babel-loader": "^8.2.2",
+    "parcel": "^2.0.0-beta.3.1"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "core-js": "^3.13.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
